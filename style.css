@@ -1,0 +1,150 @@
+header {
+  display: flex; /*並列になる*/
+  width: 100%;
+  height: 100px;
+  background-color: rgb(5, 23, 44);
+  align-items: center; /*flexboxの中央に置く*/
+  padding: 100px;
+  color: #fff;
+  text-shadow: 0 0 1px #fff, 0 0 20px #0cc, 0 0 10px #0cc, 0 0 10px #0ff,
+    0 0 60px #0ff;
+}
+
+body {
+  background-color: rgb(5, 23, 44);
+  color: rgb(253, 253, 253);
+  font-family: unset;
+}
+
+.title {
+  margin-right: auto;
+}
+
+.hide-button {
+  background-color: cadetblue;
+  width: 500px;
+  height: 300px;
+  border-radius: 50px;
+}
+.addnametext {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 90px;
+  top: 320px;
+  z-index: 1;
+  /*太陽現る*/
+  /*background-color: rgb(252, 216, 56, 0.8);
+  border-radius: 100px;*/
+  /*月のcssです*/
+  border-radius: 50%;
+  box-shadow: -26px 0px 0px 20px rgb(252, 216, 56, 0.8);
+}
+
+.sunbox {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 90px;
+  top: 320px;
+  z-index: 1;
+  /*太陽現る*/
+  background-color: rgba(252, 183, 56, 0.877);
+  border-radius: 100px;
+}
+
+.nametext {
+  z-index: 2;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff,
+    0 0 70px #fff;
+}
+.hide {
+  font-size: 2rem;
+}
+
+.menu-item {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.top .nametext {
+  margin: 200px 200px 0;
+  font-size: 100px;
+  /*font-family: fantasy;*/
+}
+
+.myimage {
+  width: 650px;
+  margin-right: 150px;
+  margin-top: 20px;
+}
+
+.aboutme {
+  margin: 100px 0px 100px 60px;
+  padding: 0px 15px 5px 200px;
+}
+
+.aboutme-title {
+  margin: 0px 0px 0px 50px;
+  font-size: 50px;
+  /*text-shadow: 0 0 1px #fff, 0 0 10px #0cc, 0 0 5px #0cc, 0 0 10px #0ff,
+    0 0 60px #0ff;*/
+}
+
+.like-image {
+  width: 300px;
+  margin: 5px;
+  margin-left: 55px;
+  margin-top: 30px;
+}
+.pancake-image {
+  height: 300px;
+  margin: 5px;
+  margin-top: 30px;
+}
+
+.syosai-a {
+  font-size: 15px;
+  margin-left: 55px;
+  margin-top: 20px;
+}
+
+.syosai {
+  margin-top: 30px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(252, 216, 56);
+  border-radius: 50px;
+  margin-top: 12px;
+}
+
+.change-color1 {
+  background-color: rgb(102, 189, 247);
+}
+
+.change-color2 {
+  background-color: rgb(252, 216, 56);
+}
+
+.change1 {
+  padding: 20px;
+}
+
+.js {
+  margin-left: 55px;
+}
+
+.border {
+  border: 1px solid;
+  padding: 5px;
+  margin-top: 12px;
+}

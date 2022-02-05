@@ -9,7 +9,93 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <header id="change-brack">
+      <h1 class="title">MyProfile</h1>
+      <nav class="nav">
+        <ul class="menu-group">
+          <li class="menu-item">about me</li>
+          <li class="menu-item">like</li>
+          <li class="menu-item">js入れる</li>
+        </ul>
+      </nav>
+    </header>
+    <div id="hidesquare" class="hide"></div>
+    <div class="top">
+      <img src="Images/flagme.JPG" alt="自分の写真" class="myimage" />
+
+      <p class="nametext">
+        Ota<br />
+        Miyu
+      </p>
+    </div>
+
+    <div class="aboutme">
+      <h3 class="aboutme-title">
+        about <br />
+        me
+      </h3>
+
+      <div class="syosai">
+        <p class="syosai-a">
+          Age : 21 <br />
+          Born : 2000.02.19<br />
+          Height :155cm
+          <br />
+          Hometown :Tokyo <br />
+          Univ : Chuo
+        </p>
+      </div>
+    </div>
+
+    <div class="aboutme">
+      <h3 class="aboutme-title">Like</h3>
+      <img
+        src="/Users/otamiyu/Downloads/0595265C-FBC4-42D4-8475-98578665DB05.JPG"
+        alt="ケーキの写真"
+        class="like-image"
+      />
+      <img
+        src="/Users/otamiyu/Downloads/pancake.JPG"
+        alt="ケーキの写真"
+        class="pancake-image"
+      />
+      <img
+        src="/Users/otamiyu/Downloads/ramen.JPG"
+        alt="ラーメンの写真"
+        class="pancake-image"
+      />
+      <div id="change-brack" class="syosai-a">
+        美味しいご飯を食べるのと旅行は好きです！　<br />
+        最近、AndroidからiPhoneに変わったので<br />
+        より巡ろうと思っています
+      </div>
+    </div>
+
+    <div class="aboutme">
+      <h3 class="aboutme-title">Js色を変化しよう</h3>
+
+      <div class="js">
+        <h3>順番にやってみよう</h3>
+        <div class="change1">
+          <p>①色が変わります</p>
+          <div id="figure" class="square"></div>
+          <button id="color-button" class="border">色を変える</button>
+        </div>
+
+        <div class="change1">
+          <p>②サイトの中を探してみてね <br />クリックするとどこかが変わる</p>
+          <button id="change-button2" class="border">Please Click</button>
+        </div>
+        <div class="change1">
+          <p>③朝にしましょう <br />やっぱり夜型より朝活した方がいいですよね?</p>
+          <button id="change-button3" class="border">朝へカウントダウン</button>
+          <div>
+            <h2 id="display">0</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="main.js"></script>
   </body>
 </html>
